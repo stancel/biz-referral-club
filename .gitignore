@@ -1,0 +1,44 @@
+# yii console command
+/_protected/yii
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/_protected/vendor
+
+
+# assets (temp) and uploads folders
+/assets 
+/uploads 
+/backend/assets 
+
+# runtime directories
+/_protected/backend/runtime
+/_protected/frontend/runtime
+/_protected/console/runtime 
+
+# Composer.json should not be needed for PROD
+#composer.json
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml

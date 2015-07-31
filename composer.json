@@ -1,0 +1,38 @@
+{
+    "name": "Business Referral Club Application",
+    "description": "Sample app for business referral club for exploring Yii2 framework.",
+    "keywords": [],
+    "type": "project",
+    "license": "Proprietary",
+    "support": {
+        "tutorial": "None",
+        "source": "https://github.com/stancel/biz-referral-club"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "nenad/yii2-password-strength": "*",
+        "mihaildev/yii2-ckeditor": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "codeception/specify": "*",
+        "codeception/verify": "*"
+    },
+    "config": {
+        "vendor-dir": "_protected/vendor",
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "_protected/vendor/npm",
+            "bower-asset-library": "_protected/vendor/bower"
+        }
+    }
+}

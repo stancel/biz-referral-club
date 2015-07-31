@@ -1,0 +1,10 @@
+{
+    "require": {
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-datecontrol": "1.9.x",
+        "kartik-v/yii2-detail-view": "dev-master",
+        "yiisoft/yii2-jui": "*",
+        "kartik-v/yii2-widget-depdrop": "*",
+        "kartik-v/yii2-tabs-x": "dev-master"
+    }
+}
